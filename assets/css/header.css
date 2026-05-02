@@ -1,0 +1,55 @@
+header{
+    z-index: 999;
+}
+.navbar{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3) !important;
+}
+.nav-links-container{
+    display: none;
+}
+.navbar-brand{
+    color: rgb(48, 48, 48) !important
+}
+.custom-nav-links{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1.5rem;
+}
+.custom-nav-page{
+    font-size: normal !important;
+    text-decoration: none;
+    position: relative;
+    text-decoration: none;
+    transition: color 0.25s ease-in-out;
+    color: rgb(48, 48, 48);
+} 
+.custom-nav-page:hover{
+    color: rgb(100, 100, 100);
+}
+.custom-nav-page::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3.5px;
+    width: 0;
+    height: 2px;
+    background: rgb(119, 119, 119);
+    transition: width 0.3s ease;
+}
+/* Make underline appear when .underline-page is added */
+.custom-nav-page.underline-page::after {
+  width: 100%;
+}
+
+/* Ensure text is white when .underline-page is added */
+.custom-nav-page.underline-page {
+  color: rgb(119, 119, 119) !important;
+}
+.custom-nav-page.underline-page::after {
+  width: 100%;
+}
+
+.custom-nav-page:hover::after {
+  width: 100%;
+}

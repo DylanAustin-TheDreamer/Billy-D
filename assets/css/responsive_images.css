@@ -1,0 +1,16 @@
+@media (max-width: 1024px) {
+    .image {
+        height: 100% !important;
+        width: 100% !important;
+    }
+    .intro-image{
+        height: 40% !important;
+        width: 40% !important;
+    }
+}
+@media (max-width: 500px) {
+    .intro-image{
+        height: 60% !important;
+        width: 60% !important;
+    }
+}

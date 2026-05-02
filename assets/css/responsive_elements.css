@@ -1,0 +1,18 @@
+@media (min-width: 849px) {
+    .navbar-toggler {
+        display: none !important;
+    }
+    .nav-links-container{
+        display: block !important;
+    }
+    .logo-container{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media(max-width: 500px){
+    .nice-box{
+        width: 100vw;
+    }
+}

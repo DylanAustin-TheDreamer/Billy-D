@@ -1,0 +1,11 @@
+.image {
+    opacity: 0;
+    height: 75%;
+    width: 65%;
+    margin-left: 1250px;
+    transition: opacity 1.2s ease-in, margin-left 0.5s ease-in;
+}
+.image.visible {
+    opacity: 1;
+    margin-left: 0px;
+}
