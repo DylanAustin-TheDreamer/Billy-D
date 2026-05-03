@@ -26,3 +26,18 @@ images.forEach(image => {
 fades.forEach(fade => {
     observer.observe(fade);
 });
+// Load background images when they enter the viewport
+const observerImages = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const bgUrl = entry.target.dataset.bg;
+      entry.target.style.backgroundImage = `url(${bgUrl})`;
+      observer.unobserve(entry.target);
+    }
+  });
+});
+
+// Observe all elements with data-bg attribute
+document.querySelectorAll('[data-bg]').forEach(el => {
+  observerImages.observe(el);
+});
