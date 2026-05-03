@@ -10,7 +10,7 @@ const observer = new IntersectionObserver((entries) => {
         }
     });
 }, {
-    threshold: 0.5,     // Trigger when 25% of the element is visible
+    threshold: 0.25,     // Trigger when 25% of the element is visible
     rootMargin: '0px',   // Extra space around the viewport (like CSS margin)
     root: null           // null = use the window viewport
 });
