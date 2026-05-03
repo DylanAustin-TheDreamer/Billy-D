@@ -2,9 +2,9 @@ addEventListener("DOMContentLoaded", () => {
 
     const reviews = Array.from(document.querySelectorAll('.review'))
 
-    reviews.forEach((review) => {
-        review.addEventListener('click', () => {
-            window.open('https://www.google.com/search?sa=X&sca_esv=36f6c3979d03146a&rlz=1C1AWFC_enGB1048GB1048&biw=1745&bih=835&sxsrf=ANbL-n4SnNOfacEjgPDittSGiLG5C5RMmQ:1777804764356&q=Billy+D+Fitness+Reviews&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxIxNDY2NzU3MTY3M7I0sjAxNDM1MdzAyPiKUdwpMyenUsFFwS2zJC-1uFghKLUsM7W8eBErLhkAkdYVBE8AAAA&rldimm=13375743762928416541&tbm=lcl&hl=en-NL&ved=2ahUKEwj9ltbr9pyUAxVdzAIHHdskLvQQ9fQKegQIQRAG#lkt=LocalPoiReviews')
+        reviews.forEach((review) => {
+            review.addEventListener('click', () => {
+                window.open('https://www.google.com/maps/place/Billy+D+Fitness/@53.8170046,-2.292134,12z/data=!4m8!3m7!1s0x290035bd5997a179:0xb9a03015abfeb71d!8m2!3d53.8169316!4d-2.2095623!9m1!1b1!16s%2Fg%2F11xrkzpn_h?hl=en-GB&entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D');
         });
     });
 });

@@ -51,9 +51,26 @@ html body{
     padding: 10px;
     gap: 50px;
 }
+.row-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 50px;
+}
 .social-links a{
-    font-size: 150px;
+    font-size: 120px;
     color: rgb(224, 127, 0);
+}
+.business-card-content{
+    margin-top: 4rem;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .business-card{
     display: flex;
@@ -62,9 +79,14 @@ html body{
     text-align: center;
 }
 .business-card-link{
-    font-size: 150px !important;
+    font-size: 120px !important;
     color: rgb(224, 127, 0) !important;
+    transition: color ease-in-out 0.1s;
 }
+.business-card-link:hover{
+    color: rgb(85, 85, 85) !important;
+}
+    
 .introduction-text{
     display: flex;
     flex-direction: column;
