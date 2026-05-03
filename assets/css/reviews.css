@@ -1,0 +1,16 @@
+.reviews-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review{
+    border: 1px solid darkslategray;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    min-height: fit-content;
+}
+.rating{
+    color: gold !important;
+}

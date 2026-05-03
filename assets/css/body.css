@@ -51,6 +51,20 @@ html body{
     padding: 10px;
     gap: 50px;
 }
+.social-links a{
+    font-size: 150px;
+    color: rgb(224, 127, 0);
+}
+.business-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.business-card-link{
+    font-size: 150px !important;
+    color: rgb(224, 127, 0) !important;
+}
 .introduction-text{
     display: flex;
     flex-direction: column;
