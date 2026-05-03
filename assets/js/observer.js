@@ -17,8 +17,12 @@ const observer = new IntersectionObserver((entries) => {
 
 // Get all elements with the class 'image'
 const images = document.querySelectorAll('.image');
+const fades = document.querySelectorAll('.fade');
 
 // Start observing each image
 images.forEach(image => {
     observer.observe(image);
+});
+fades.forEach(fade => {
+    observer.observe(fade);
 });

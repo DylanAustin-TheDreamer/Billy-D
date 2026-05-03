@@ -2,10 +2,15 @@
     opacity: 0;
     height: 75%;
     width: 65%;
-    margin-left: 400px;
-    transition: opacity 1.2s ease-in, margin-left 0.5s ease-in;
+    transition: opacity 1.3s ease-in;
 }
 .image.visible {
     opacity: 1;
-    margin-left: 0px;
+}
+.fade{
+    opacity: 0;
+    transition: opacity 1.3s ease-in;
+}
+.fade.visible{
+    opacity: 1;
 }
