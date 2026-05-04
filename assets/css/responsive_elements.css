@@ -16,6 +16,9 @@
         padding: 10px;
         gap: 150px;
     }
+    .bio{
+        width: 750px;
+    }
 }
 @media(max-width: 500px){
     .nice-box{

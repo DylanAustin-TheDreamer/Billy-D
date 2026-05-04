@@ -102,6 +102,29 @@ html body{
     border-radius: 18px;
     background-color: #f5f5f5;
 }
+.bio-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bio{
+    text-align: start !important;
+    padding: 25px;
+    border: 1px darkslategray solid;
+    border-radius: 12px;
+
+}
+.bio ul{
+    border-left: solid 2px rgb(224, 127, 0);
+}
+.border-left{
+    border-left: solid 2px rgb(224, 127, 0);
+    padding-left: 15px;
+}
+.em-span{
+    font-weight: 600;
+    color: rgb(209, 118, 0);
+}
 
 /* EXTRAS */
 
