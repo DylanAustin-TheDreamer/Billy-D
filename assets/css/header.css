@@ -2,19 +2,25 @@ header{
     z-index: 999;
 }
 .navbar{
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3) !important;
+  padding: 14px 22px !important;
+  background: rgba(255, 250, 244, .92) !important;
+  box-shadow: 0 1px 0 rgba(25, 33, 31, .12) !important;
 }
 .nav-links-container{
     display: none;
 }
 .navbar-brand{
-    color: rgb(48, 48, 48) !important
+  color: #19211f !important;
+  font-family: "Spectral", serif;
+  font-size: 1.45rem;
+  font-weight: 700;
+  letter-spacing: -.02em;
 }
 .custom-nav-links{
     display: flex;
     justify-content: end;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.25rem;
 }
 .custom-nav-page{
     font-size: normal !important;
@@ -22,7 +28,8 @@ header{
     position: relative;
     text-decoration: none;
     transition: color 0.25s ease-in-out;
-    color: rgb(48, 48, 48);
+    color: #19211f;
+    font-weight: 600;
 } 
 .custom-nav-page:hover{
     color: rgb(100, 100, 100);
@@ -34,7 +41,7 @@ header{
     bottom: -3.5px;
     width: 0;
     height: 2px;
-    background: rgb(119, 119, 119);
+    background: #ef6a4e;
     transition: width 0.3s ease;
 }
 /* Make underline appear when .underline-page is added */
@@ -44,7 +51,20 @@ header{
 
 /* Ensure text is white when .underline-page is added */
 .custom-nav-page.underline-page {
-  color: rgb(119, 119, 119) !important;
+  color: #ef6a4e !important;
+}
+.navbar-toggler{
+    border: 1px solid rgba(25, 33, 31, .22);
+    border-radius: 10px;
+    padding: 8px 10px;
+}
+.offcanvas{
+    background: #fffaf4;
+}
+.offcanvas .nav-link{
+    color: #19211f;
+    padding: .8rem 0;
+    font-weight: 600;
 }
 .custom-nav-page.underline-page::after {
   width: 100%;

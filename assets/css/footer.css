@@ -1,9 +1,10 @@
 footer{
-    padding: 35px;
+    margin-top: 5rem;
+    padding: 48px 24px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background: #19211f;
 }
 .footer-container{
     display: flex;
@@ -20,12 +21,14 @@ footer{
 .footer-link{
     text-decoration: none;
     font-size: xx-large;
-    color: grey;
+    color: #f5f1eb;
     transition: color ease-in-out 0.25s;
 }
 .footer-link:hover{
-    color: rgb(88, 88, 88);
+    color: #ef6a4e;
 }
 .copyright{
-    color: grey;
+    color: #b9c0ba;
+    font-size: .75rem;
+    letter-spacing: .08em;
 }

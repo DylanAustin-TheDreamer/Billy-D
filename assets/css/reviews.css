@@ -4,13 +4,19 @@
     align-items: center;
 }
 .review{
-    border: 1px solid darkslategray;
-    border-radius: 8px;
-    padding: 15px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.12);
+    height: 100%;
+    border: 1px solid rgba(25, 33, 31, .11);
+    border-radius: 16px;
+    padding: 24px;
+    background: #fffaf4;
+    box-shadow: 0 12px 28px rgba(25, 33, 31, .07);
     cursor: pointer;
-    min-height: fit-content;
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+.review:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 18px 32px rgba(25, 33, 31, .12);
 }
 .rating{
-    color: gold !important;
+    color: #ef6a4e !important;
 }
